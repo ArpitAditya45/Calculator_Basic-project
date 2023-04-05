@@ -1,0 +1,54 @@
+/* .button{
+    padding: 20px;
+    max-width: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    
+    
+} */
+
+/* CSS */
+.button {
+    padding: 32px;
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #F082AC;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 0;
+    padding: 20px 0px;
+    border: 2px solid cyan;
+    border-radius: 9px;
+}
